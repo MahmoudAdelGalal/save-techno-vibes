@@ -14,7 +14,7 @@ body {
   width:10rem;
 }
 .swiper-slide.slide--one-sixth {
-    margin: 10px;
+    /*margin: 10px;*/
 }
 .s-block--categories:not(.has-arrows) .s-slider-block__title {
   display:none;
