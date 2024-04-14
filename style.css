@@ -3,3 +3,108 @@ body {
 	display:none;
 }
 */
+
+/* MA7 Code */
+
+.slide--cat-entry {
+  border-width:0 !important;
+}
+.slide--cat-entry i{
+  height:10rem;
+  width:10rem;
+}
+.swiper-slide.slide--one-sixth {
+    margin: 10px;
+}
+.s-block--categories:not(.has-arrows) .s-slider-block__title {
+  display:none;
+}
+salla-slider.photos-slider .swiper-slide {
+  width:100%;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  padding-left:0;
+  padding-right:0;
+    border-radius:0;
+}
+salla-slider.photos-slider .swiper-slide .rounded-md {
+  border-radius:0;
+}
+
+.px-2\.5.md\:px-4.sm\:mt-4.border-t.whitespace-pre-line.text-gray-700.font-normal.text-xs.md\:text-sm{
+  display:none;
+}
+.banner img.lazy.loaded {
+  border-radius:20px;
+}
+.product-entry__content{
+  height:100%;
+  justify-content:space-evenly
+}
+.s-block--square-photos .photos-count-4, .s-block--square-photos .photos-count-5, .s-block--square-photos .photos-count-6{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.s-block--square-photos .photos-count-4 > div:first-child {
+  grid-row-end: 2;
+}
+.s-block--square-photos .photos-count-4>div:last-child {
+  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3
+}
+
+  .s-block--square-photos .photos-count-4 .banner-entry .lazy__bg.lazy.entered.loaded {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-radius:20px;
+  }
+ .s-block--square-photos .photos-count-4 .banner-entry  {
+    background-color: transparent;
+  }
+
+
+@media (max-width:991px) {
+  .s-block--square-photos .photos-count-4 .banner-entry{
+    height:275px  !important;
+  }
+
+  
+}
+@media (min-width:992px) {
+  .s-block--square-photos .photos-count-4 .banner-entry{
+    height:350px !important;
+  }
+  .s-block--square-photos .photos-count-1>div, .s-block--square-photos .photos-count-2>div, .s-block--square-photos .photos-count-3>div {
+    height: 350px;
+}
+}
+@media (max-width:767px) {
+  .s-block--square-photos .photos-count-4, .s-block--square-photos .photos-count-5, .s-block--square-photos .photos-count-6 {
+    grid-template-columns:100% !important;
+  }
+.s-block--square-photos .photos-count-4>div:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.s-block--square-photos .photos-count-4>div:last-child {
+    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+ .s-block--square-photos .photos-count-4 .banner-entry{
+    height:200px !important;
+  }
+  .photos-count-4.gap-2\.5.md\:gap-8{
+    gap:5px;
+  }
+  
+  .s-block--square-photos .photos-count-1>div, .s-block--square-photos .photos-count-2>div, .s-block--square-photos .photos-count-3>div {
+    height: 200px;
+}
+  
+  
+}
