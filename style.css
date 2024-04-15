@@ -62,7 +62,9 @@ salla-slider.photos-slider .swiper-slide .rounded-md {
  .s-block--square-photos .photos-count-4 .banner-entry  {
     background-color: transparent;
   }
-
+[dir=rtl] .carousel-slider .swiper {
+	padding-left: 0;
+}
 
 @media (max-width:991px) {
   .s-block--square-photos .photos-count-4 .banner-entry{
